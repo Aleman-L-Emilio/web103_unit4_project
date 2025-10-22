@@ -10,7 +10,7 @@ const EditCar = () => {
     year: '',
     color: 'Red',
     price: 50000,
-    image_url: 'https://i.imgur.com/49S3s8m.png'
+    image_url: 'https://t4.ftcdn.net/jpg/00/95/85/15/360_F_95851574_dIGvG1Q5PHRPcSU8O2H8bFcwUPvYwYxP.jpg'
   });
   const [error, setError] = useState('');
   const { id } = useParams();
@@ -25,9 +25,9 @@ const EditCar = () => {
   }, [id]);
 
   const colors = [
-    { name: 'Red', price: 0, imageUrl: 'https://i.imgur.com/49S3s8m.png' },
-    { name: 'Blue', price: 500, imageUrl: 'https://i.imgur.com/N7lD7lJ.png' },
-    { name: 'Black', price: 1000, imageUrl: 'https://i.imgur.com/lJ4a4YI.png' },
+    { name: 'Red', price: 0, imageUrl: 'https://t4.ftcdn.net/jpg/00/95/85/15/360_F_95851574_dIGvG1Q5PHRPcSU8O2H8bFcwUPvYwYxP.jpg' },
+    { name: 'Blue', price: 500, imageUrl: 'https://spn-sta.spinny.com/blog/20230107155653/Tata-Safari-Facelift-1160x653.webp?compress=true&quality=80&w=1200&dpr=2.6' },
+    { name: 'Black', price: 1000, imageUrl: 'https://news.dupontregistry.com/wp-content/uploads/2025/08/McLaren-765LT-Main-Image-1080x570.jpg' },
   ];
 
   const handleInputChange = (event) => {
