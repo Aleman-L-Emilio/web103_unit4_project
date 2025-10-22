@@ -41,7 +41,7 @@ Here's a walkthrough of implemented required features:
 
 <img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with S
+GIF created with ScreenToGif
 
 ## License
 
